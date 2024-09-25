@@ -9,118 +9,56 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
+    padding: 20px;
 }
 
 /* Estilos del header */
 .header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-    overflow: hidden;
-}
-
-.logo {
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.navbar {
-    float: right;
-}
-
-.navbar a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 18px;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-}
-
-/* Estilos del contenido principal */
-.main-content {
-    padding: 20px;
-    overflow: hidden;
-    background-color: #fff;
-}
-
-.sidebar {
-    float: left;
-    width: 20%;
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-right: 2px solid #ddd;
-}
-
-.sidebar h3 {
-    margin-bottom: 10px;
-}
-
-.sidebar ul {
-    list-style: none;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-.sidebar ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Estilos de la sección de streaming */
-.streaming-section {
-    float: right;
-    width: 75%;
-    padding: 20px;
-}
-
-.streaming-section h2 {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.video-container {
+.header h1 {
+    font-size: 32px;
+    color: #222;
+}
+
+/* Estilos de la sección de cards */
+.cards-section {
     overflow: hidden;
 }
 
-.video-item {
+.card {
     float: left;
     width: 23%;
     margin-right: 2%;
-    background-color: #eaeaea;
-    padding: 10px;
-    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
 }
 
-.video-item img {
+.card img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    display: block;
 }
 
-.video-item h4 {
-    margin-top: 10px;
+.card-content {
+    padding: 15px;
 }
 
-.video-item:last-child {
-    margin-right: 0;
+.card-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-/* Estilos del footer */
-.footer {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    margin-top: 20px;
+.card-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
 }
+
+.btn {
+    display: inline-block;
