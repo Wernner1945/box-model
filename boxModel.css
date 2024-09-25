@@ -1,0 +1,79 @@
+/* Restablecer estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box; /* Valor por defecto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Ejemplo 1: Caja con `content-box` */
+.content-box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #000;
+    background-color: lightblue;
+    box-sizing: content-box; /* Valor por defecto */
+}
+
+/* Ejemplo 2: Caja con `border-box` */
+.border-box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #000;
+    background-color: lightgreen;
+    box-sizing: border-box;
+}
+
+/* Ejemplo 3: Caja con `content-box`, padding y margin */
+.content-box-padding-margin {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #000;
+    background-color: lightcoral;
+    box-sizing: content-box; /* Valor por defecto */
+}
+
+/* Ejemplo 4: Caja con `border-box`, padding y margin */
+.border-box-padding-margin {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #000;
+    background-color: lightyellow;
+    box-sizing: border-box;
+}
+
+/* Ejemplo 5: Caja con display block */
+.box-block {
+    width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #000;
+    background-color: lightgray;
+    display: block;
+}
+
+/* Ejemplo 6: Caja con display inline */
+.box-inline {
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: lightpink;
+    display: inline;
+    margin: 5px;
+}
+
+/* Ejemplo 7: Caja con display inline-block */
+.box-inline-block {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000;
+    background-color: lightseagreen;
+    display: inline-block;
+}

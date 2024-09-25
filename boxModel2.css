@@ -1,0 +1,126 @@
+/* Restablecer márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilos del header */
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la sección de streaming */
+.streaming-section {
+    float: right;
+    width: 75%;
+    padding: 20px;
+}
+
+.streaming-section h2 {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    overflow: hidden;
+}
+
+.video-item {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+    background-color: #eaeaea;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.video-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-item h4 {
+    margin-top: 10px;
+}
+
+.video-item:last-child {
+    margin-right: 0;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 20px;
+}
